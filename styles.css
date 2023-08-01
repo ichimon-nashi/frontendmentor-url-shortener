@@ -17,7 +17,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    /* outline: 0.1px dotted red; */
+    outline: 0.1px dotted red;
 }
 
 html, body {
@@ -205,7 +205,7 @@ button:hover {
     top: 5rem;
     position: absolute;
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background: var(---light-gray);
     z-index: -1;
 }
@@ -613,8 +613,8 @@ footer {
         padding-right: 3rem;
     }
 }
-/* @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .heading-description-container {
         padding: 0 2.5rem;
     }
-} */
+}
